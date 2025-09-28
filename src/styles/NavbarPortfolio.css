@@ -1,0 +1,23 @@
+.my-navbar {
+  background-color: white;
+  padding: 1rem 2rem;
+  margin-top: 20px;
+}
+
+.my-navbar-brand {
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #1a1a1a !important;
+}
+
+.my-navbar-nav .nav-link {
+  margin-left: 2rem;
+  font-weight: 400;
+  color: #333 !important;
+  transition: color 0.3s;
+}
+
+.my-navbar-nav .nav-link:hover {
+  color: rgb(168, 168, 168) !important; /* Bootstrap blue */
+}

@@ -1,17 +1,19 @@
-import { PHOTOS } from '../data/Photos'
+// import { PHOTOS } from '../data/Photos'
+import Banner from '../components/Banner';
 
 function Home() {
   return (
     <div>
+      <Banner />
       <h1>Bienvenue sur la page d’accueil</h1>
-      <ul>
+      {/* <ul>
         {PHOTOS.map((photo) => (
           <li key={photo.id}>
             <img src={photo.url} alt={photo.name} width="200" loading="lazy"/>
             <p>{photo.category}</p>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 }

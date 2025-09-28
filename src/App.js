@@ -3,15 +3,12 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import NavbarPortfolio from "./components/NavbarPortfolio";
 
 function App() {
   return (
     <Router>
-      <nav style={{ marginBottom: "20px" }}>
-        <Link to="/">Accueil</Link> |{" "}
-        <Link to="/about">À propos</Link> |{" "}
-        <Link to="/contact">Contact</Link>
-      </nav>
+      <NavbarPortfolio />
 
       <Routes>
         <Route path="/" element={<Home />} />
