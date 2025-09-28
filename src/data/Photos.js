@@ -77,5 +77,8 @@ export const PHOTOS = [
   { id: 76, name: "image00089", category:"Thailande", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003993/portfolio/image00089_ao0efp.jpg" },
   { id: 77, name: "image00090", category:"Thailande", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003997/portfolio/image00090_pknm02.jpg" },
   { id: 78, name: "image00091", category:"Thailande", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003998/portfolio/image00091_sa5kof.jpg" },
-  { id: 79, name: "image00092", category:"Thailande", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759004002/portfolio/image00092_kglg6b.jpg" }
+  { id: 79, name: "image00092", category:"Thailande", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759004002/portfolio/image00092_kglg6b.jpg" },
+  { id: 80, name: "image00093", category:"Thailande", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759072171/portfolio/image00093_yddyh4.jpg" },
+  { id: 81, name: "image00094", category:"Indonésie", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759072171/portfolio/image00094_ivfesn.jpg" },
+  { id: 82, name: "image00095", category:"Japon", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759072172/portfolio/image00095_qhpugj.jpg" },
 ];

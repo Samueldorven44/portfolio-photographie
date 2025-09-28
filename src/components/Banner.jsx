@@ -1,38 +1,18 @@
 import React from 'react';
+import { PHOTOS } from '../data/Photos'
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
-
 import '../styles/Banner.css';
-
-// Swiper modules
 import { EffectFade, Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 function Banner() {
-  const photo1 = {
-    id: 30,
-    name: "image00032",
-    category: "Laos",
-    url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003867/portfolio/image00032_rpbtsn.jpg"
-  };
 
-  const photo2 = {
-    id: 19,
-    name: "image00020",
-    category: "Indonésie",
-    url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003837/portfolio/image00020_v3ed6p.jpg"
-  };
-
-  const photo3 = {
-    id: 72,
-    name: "image00085",
-    category: "Thailande",
-    url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003983/portfolio/image00085_bz2pof.jpg"
-  };
+  const selectedPhotos = PHOTOS.filter((photo) =>
+    [80, 81, 82].includes(photo.id)
+  );
 
   return (
     <Swiper
@@ -45,17 +25,21 @@ function Banner() {
         disableOnInteraction: false,
       }}
       modules={[EffectFade, Autoplay, Pagination, Navigation]}
-      className="mySwiper"
+      className="mySwiperBanner"
     >
-      <SwiperSlide>
-        <img className="photo-slider" src={photo1.url} alt={photo1.name} />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img className="photo-slider" src={photo2.url} alt={photo2.name} />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img className="photo-slider" src={photo3.url} alt={photo3.name} />
-      </SwiperSlide>
+
+      {selectedPhotos.map((photo) => (
+        <SwiperSlide key={photo.id}>
+          <div>
+            <img
+              src={photo.url}
+              alt={photo.name}
+              className="photo-slider"
+              loading="lazy"
+            />
+          </div>
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 }
