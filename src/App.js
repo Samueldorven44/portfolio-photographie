@@ -4,19 +4,22 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import NavbarPortfolio from "./components/NavbarPortfolio";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <Router>
-      <NavbarPortfolio />
+      <Layout>
+        <NavbarPortfolio />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        {/* Route pour les pages inexistantes */}
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          {/* Route pour les pages inexistantes */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Layout>
     </Router>
   );
 }
