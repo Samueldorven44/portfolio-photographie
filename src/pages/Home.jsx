@@ -1,11 +1,13 @@
 import Banner from '../components/Banner';
-import GalleryJaponHome from "../components/GalleryJaponHome";
+import AboutMeHome from "../components/AboutMeHome";
+import GalleryThailandHome from "../components/GalleryThailandHome";
 
 function Home() {
   return (
     <div>
       <Banner />
-      <GalleryJaponHome />
+      <AboutMeHome/>
+      <GalleryThailandHome />
     </div>
   );
 }

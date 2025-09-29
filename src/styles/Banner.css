@@ -24,3 +24,15 @@
   max-height: 100%;
   box-sizing: border-box;
 }
+
+.legend-banner {
+  margin-top: 10px;
+}
+
+#banner-picture-category {
+  margin-bottom: 0px !important;
+}
+
+#banner-picture-name {
+  font-style: italic;
+}

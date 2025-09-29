@@ -1,0 +1,19 @@
+.aboutme-home {
+  display: flex;
+  margin-top: 50px;
+}
+
+.aboutme-section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  margin-right: 40px;
+
+}
+
+.aboutme-photo {
+  width: 80vh;
+  height: 80vh;
+  object-fit: cover;
+}

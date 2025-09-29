@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import NavbarPortfolio from "./components/NavbarPortfolio";
 import Layout from "./components/Layout";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           {/* Route pour les pages inexistantes */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+
+        <Footer />
       </Layout>
     </Router>
   );

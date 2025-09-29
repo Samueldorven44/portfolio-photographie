@@ -21,7 +21,7 @@ function Banner() {
       fadeEffect={{ crossFade: true }}
       centeredSlides={true}
       autoplay={{
-        delay: 4500,
+        delay: 3500,
         disableOnInteraction: false,
       }}
       modules={[EffectFade, Autoplay, Pagination, Navigation]}
@@ -37,6 +37,10 @@ function Banner() {
               className="photo-slider"
               loading="lazy"
             />
+            <div className='legend-banner'>
+              <p id="banner-picture-category"><strong>{photo.category}</strong></p>
+              <p id='banner-picture-name'>{photo.name}</p>
+            </div>
           </div>
         </SwiperSlide>
       ))}
