@@ -21,3 +21,7 @@
 .my-navbar-nav .nav-link:hover {
   color: rgb(168, 168, 168) !important;
 }
+
+.container {
+  padding: 0 !important;
+}

@@ -56,7 +56,7 @@ export const PHOTOS = [
   { id: 55, name: "image00061", category:"Singapour", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003933/portfolio/image00061_m9gynk.jpg" },
   { id: 56, name: "image00062", category:"Singapour", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003935/portfolio/image00062_bomdl3.jpg" },
   { id: 57, name: "image00063", category:"Philippines", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003950/portfolio/image00063_p0bko1.jpg" },
-  { id: 58, name: "image00065", category:"Philippines", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003942/portfolio/image00065_jzr464.jpg" },
+  { id: 58, name: "Bohol", category:"Philippines", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003942/portfolio/image00065_jzr464.jpg" },
   { id: 59, name: "image00066", category:"Philippines", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003943/portfolio/image00066_uddlzk.jpg" },
   { id: 60, name: "image00071", category:"Philippines", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003950/portfolio/image00071_xq9vvc.jpg" },
   { id: 61, name: "image00072", category:"Philippines", url: "https://res.cloudinary.com/dqscokb6w/image/upload/v1759003951/portfolio/image00072_if27hh.jpg" },

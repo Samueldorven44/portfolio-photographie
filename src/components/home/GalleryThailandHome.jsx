@@ -1,5 +1,5 @@
-import { PHOTOS } from '../data/Photos';
-import "../styles/GalleryThailandHome.css";
+import { PHOTOS } from '../../data/Photos';
+import "../../styles/GalleryThailandHome.css";
 
 function GalleryThailandHome() {
   const selectedThailandPhotos1 = PHOTOS.filter((photo) =>

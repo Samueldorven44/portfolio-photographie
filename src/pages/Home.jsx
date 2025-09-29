@@ -1,6 +1,6 @@
-import Banner from '../components/Banner';
-import AboutMeHome from "../components/AboutMeHome";
-import GalleryThailandHome from "../components/GalleryThailandHome";
+import Banner from '../components/home/Banner';
+import AboutMeHome from "../components/home/AboutMeHome";
+import GalleryThailandHome from "../components/home/GalleryThailandHome";
 
 function Home() {
   return (

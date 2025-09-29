@@ -1,17 +1,17 @@
 import React from 'react';
-import { PHOTOS } from '../data/Photos'
+import { PHOTOS } from '../../data/Photos'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
-import '../styles/Banner.css';
-import { EffectFade, Autoplay, Pagination, Navigation } from 'swiper/modules';
+import '../../styles/Banner.css';
+import { EffectFade, Autoplay} from 'swiper/modules';
 
 function Banner() {
 
   const selectedPhotos = PHOTOS.filter((photo) =>
-    [80, 81, 82].includes(photo.id)
+    [80, 81, 58].includes(photo.id)
   );
 
   return (
@@ -24,7 +24,7 @@ function Banner() {
         delay: 3500,
         disableOnInteraction: false,
       }}
-      modules={[EffectFade, Autoplay, Pagination, Navigation]}
+      modules={[EffectFade, Autoplay]}
       className="mySwiperBanner"
     >
 
