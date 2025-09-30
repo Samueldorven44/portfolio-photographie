@@ -1,9 +1,12 @@
+import BannerCountry from '../components/country/BannerCountry'
+import PhotoListing from '../components/country/PhotoListing'
+
 function Laos() {
   return (
     <div>
-      <h1>Hello</h1>
+      <BannerCountry id={30} />
+      <PhotoListing category="laos" />
     </div>
   )
 }
 export default Laos;
-

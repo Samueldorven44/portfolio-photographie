@@ -1,7 +1,11 @@
+import BannerCountry from '../components/country/BannerCountry'
+import PhotoListing from '../components/country/PhotoListing'
+
 function Indonesie() {
   return (
     <div>
-      <h1>Hello</h1>
+      <BannerCountry id={20} />
+      <PhotoListing category="indonesie" />
     </div>
   )
 }

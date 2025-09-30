@@ -1,7 +1,11 @@
+import BannerCountry from '../components/country/BannerCountry'
+import PhotoListing from '../components/country/PhotoListing'
+
 function Vietnam() {
   return (
     <div>
-      <h1>Hello</h1>
+      <BannerCountry id={50} />
+      <PhotoListing category="vietnam" />
     </div>
   )
 }
