@@ -2,6 +2,7 @@ import BannerCountry from '../components/country/BannerCountry'
 import PhotoListing from '../components/country/PhotoListing'
 
 function Thailande() {
+
   return (
     <div>
       <BannerCountry id={75} />

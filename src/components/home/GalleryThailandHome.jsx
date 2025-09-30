@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { PHOTOS } from '../../data/Photos';
 import "../../styles/GalleryThailandHome.css";
 
@@ -36,11 +38,13 @@ function GalleryThailandHome() {
       </div>
 
       <div className='thailand-text'>
-        <h1>La Thailande</h1>
+        <h1>À la une</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis convallis erat vel congue. Nulla dignissim quam bibendum nibh feugiat condimentum. Aliquam vel lorem egestas, eleifend lectus sed, feugiat dui. Aliquam hendrerit a nisi a sagittis. Integer dignissim justo dio, ac.
         </p>
-        <button className='button'>En savoir plus</button>
+        <button className='button'>
+          <a className='btn-home' href='/thailande'>En savoir plus</a>
+        </button>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+import React from 'react';
 import { PHOTOS } from '../../data/Photos';
 import '../../styles/BannerCountry.css'
 

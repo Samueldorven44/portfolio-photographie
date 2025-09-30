@@ -19,7 +19,9 @@ function AboutMeHome() {
           sed, feugiat dui. Aliquam hendrerit a nisi a sagittis. Integer
           dignissim justo dio, ac.
         </p>
-        <button className='button'>En savoir plus</button>
+        <button className='button'>
+          <a className='btn-home' href='/about'>En savoir plus</a>
+        </button>
       </div>
 
       <div className="aboutme-section-photo">
